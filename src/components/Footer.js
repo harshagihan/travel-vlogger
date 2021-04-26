@@ -15,14 +15,14 @@ function Footer() {
                   You can unsubscribe at any time.
               </p>
               <div className='input-areas'>
-                  <from>
+                  <div>
                       <input type='email'
                              name='email'
                              placeholder='Your Email'
                              className='footer-input'
                       />
                       <Button buttonStyle='btn--outline'>Subscribe</Button>
-                  </from>
+                  </div>
               </div>
           </section>
           <div className='footer-links'>
@@ -78,36 +78,36 @@ function Footer() {
                           <i className='fab fa-facebook-f'></i>
                       </Link>
                       <Link
-                          class='social-icon-link instagram'
+                          className='social-icon-link instagram'
                           to='/'
                           target='_blank'
                           aria-label='Instagram'
                       >
-                          <i class='fab fa-instagram' />
+                          <i className='fab fa-instagram' />
                       </Link>
                       <Link
-                          class='social-icon-link youtube'
+                          className='social-icon-link youtube'
                           to='/'
                           target='_blank'
                           aria-label='Youtube'
                       >
-                          <i class='fab fa-youtube' />
+                          <i className='fab fa-youtube' />
                       </Link>
                       <Link
-                          class='social-icon-link twitter'
+                          className='social-icon-link twitter'
                           to='/'
                           target='_blank'
                           aria-label='Twitter'
                       >
-                          <i class='fab fa-twitter' />
+                          <i className='fab fa-twitter' />
                       </Link>
                       <Link
-                          class='social-icon-link twitter'
+                          className='social-icon-link twitter'
                           to='/'
                           target='_blank'
                           aria-label='LinkedIn'
                       >
-                          <i class='fab fa-linkedin' />
+                          <i className='fab fa-linkedin' />
                       </Link>
                   </div>
               </div>
